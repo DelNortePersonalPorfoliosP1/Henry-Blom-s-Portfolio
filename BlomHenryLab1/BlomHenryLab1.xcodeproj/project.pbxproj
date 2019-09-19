@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF59F7A923314A040054DC64 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BF59F7A823314A040054DC64 /* main.c */; };
-		BF59F7B423314A240054DC64 /* clock.c in Sources */ = {isa = PBXBuildFile; fileRef = BF59F7AF23314A240054DC64 /* clock.c */; };
+		BF59F7B423314A240054DC64 /* clocklab.c in Sources */ = {isa = PBXBuildFile; fileRef = BF59F7AF23314A240054DC64 /* clocklab.c */; };
 		BF59F7B523314A240054DC64 /* temperaturelab.c in Sources */ = {isa = PBXBuildFile; fileRef = BF59F7B023314A240054DC64 /* temperaturelab.c */; };
 		BF59F7B623314A240054DC64 /* datatypeslab.c in Sources */ = {isa = PBXBuildFile; fileRef = BF59F7B123314A240054DC64 /* datatypeslab.c */; };
 		BF59F7B723314A240054DC64 /* trianglelab.c in Sources */ = {isa = PBXBuildFile; fileRef = BF59F7B223314A240054DC64 /* trianglelab.c */; };
@@ -30,11 +30,16 @@
 /* Begin PBXFileReference section */
 		BF59F7A523314A040054DC64 /* BlomHenryLab1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BlomHenryLab1; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF59F7A823314A040054DC64 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		BF59F7AF23314A240054DC64 /* clock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = clock.c; path = ../../../Labs/clock.c; sourceTree = "<group>"; };
+		BF59F7AF23314A240054DC64 /* clocklab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = clocklab.c; path = ../../../Labs/clocklab.c; sourceTree = "<group>"; };
 		BF59F7B023314A240054DC64 /* temperaturelab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = temperaturelab.c; path = ../../../Labs/temperaturelab.c; sourceTree = "<group>"; };
 		BF59F7B123314A240054DC64 /* datatypeslab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = datatypeslab.c; path = ../../../Labs/datatypeslab.c; sourceTree = "<group>"; };
 		BF59F7B223314A240054DC64 /* trianglelab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = trianglelab.c; path = ../../../Labs/trianglelab.c; sourceTree = "<group>"; };
 		BF59F7B323314A240054DC64 /* rectanglelab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rectanglelab.c; path = ../../../Labs/rectanglelab.c; sourceTree = "<group>"; };
+		BF59F7B923314AE60054DC64 /* trianglelab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = trianglelab.h; sourceTree = "<group>"; };
+		BFFD5CBA2332817300B5DF47 /* temperaturelab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = temperaturelab.h; sourceTree = "<group>"; };
+		BFFD5CBB233286F900B5DF47 /* rectanglelab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rectanglelab.h; sourceTree = "<group>"; };
+		BFFD5CBC2332873900B5DF47 /* datatypeslab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = datatypeslab.h; sourceTree = "<group>"; };
+		BFFD5CBD2332875B00B5DF47 /* clocklab.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = clocklab.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +73,15 @@
 			isa = PBXGroup;
 			children = (
 				BF59F7A823314A040054DC64 /* main.c */,
-				BF59F7AF23314A240054DC64 /* clock.c */,
+				BFFD5CBD2332875B00B5DF47 /* clocklab.h */,
+				BF59F7AF23314A240054DC64 /* clocklab.c */,
+				BFFD5CBC2332873900B5DF47 /* datatypeslab.h */,
 				BF59F7B123314A240054DC64 /* datatypeslab.c */,
+				BFFD5CBB233286F900B5DF47 /* rectanglelab.h */,
 				BF59F7B323314A240054DC64 /* rectanglelab.c */,
+				BFFD5CBA2332817300B5DF47 /* temperaturelab.h */,
 				BF59F7B023314A240054DC64 /* temperaturelab.c */,
+				BF59F7B923314AE60054DC64 /* trianglelab.h */,
 				BF59F7B223314A240054DC64 /* trianglelab.c */,
 			);
 			path = BlomHenryLab1;
@@ -133,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF59F7B423314A240054DC64 /* clock.c in Sources */,
+				BF59F7B423314A240054DC64 /* clocklab.c in Sources */,
 				BF59F7B623314A240054DC64 /* datatypeslab.c in Sources */,
 				BF59F7B523314A240054DC64 /* temperaturelab.c in Sources */,
 				BF59F7B823314A240054DC64 /* rectanglelab.c in Sources */,
